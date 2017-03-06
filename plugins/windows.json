@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com-sarriaroman-photoviewer": {
+            "PACKAGE_NAME": "medical"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "medical"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "medical"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "medical"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "medical"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "medical"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "medical"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "medical"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "medical"
+        }
+    }
+}

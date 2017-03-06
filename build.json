@@ -1,0 +1,18 @@
+{
+  "android": {
+    "debug": {
+      "keystore": "my-release-key.keystore",
+      "storePassword": "mohit.1234",
+      "alias": "alias_name",
+      "password" : "mohit.1234",
+      "keystoreType": ""
+    },
+    "release": {
+      "keystore": "my-release-key.keystore",
+      "storePassword": "mohit.1234",
+      "alias": "alias_name",
+      "password" : "mohit.1234",
+      "keystoreType": ""
+    }
+  }
+}

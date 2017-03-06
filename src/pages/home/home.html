@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar >
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Upload Docs</ion-title>
+    <ion-buttons end>
+      <button class = "Tools"(click)="takePicture()">
+        <ion-icon name="camera"></ion-icon>
+      </button>
+      <button class="Tools" (click)="presentActionSheet()">
+        <ion-icon name="refresh"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <!--<img src="{{ base64Image }}" />-->
+  <ion-item *ngFor="let displayImage of image">
+    <img src="{{displayImage.image}}" (click)="openImg(displayImage.image)"/>
+  </ion-item>
+
+  <!--<ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let displayImage of image">
+        <img src="{{displayImage.image}}" (click)="openImg(displayImage.image)"/>
+      </ion-col>
+    </ion-row>
+  </ion-grid>-->
+</ion-content>
